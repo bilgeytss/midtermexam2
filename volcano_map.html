@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9db49d0043f1940f561d7ddecd2a9793 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9db49d0043f1940f561d7ddecd2a9793" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9db49d0043f1940f561d7ddecd2a9793 = L.map(
+                "map_9db49d0043f1940f561d7ddecd2a9793",
+                {
+                    center: [13.406, 80.11],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dd7bb19c4f9706a091f24c9005e01b74 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_dd7bb19c4f9706a091f24c9005e01b74.addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            tile_layer_dd7bb19c4f9706a091f24c9005e01b74.addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var marker_6bcd5d9a24895fed4b5a5ce5f9168af6 = L.marker(
+                [-1.467, -78.442],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_544e4a711608f1d476efbf59d2347d9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6bcd5d9a24895fed4b5a5ce5f9168af6.setIcon(icon_544e4a711608f1d476efbf59d2347d9e);
+        
+    
+        var popup_48eda418153b100e28a1ac7b03f694ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0b76b903dbbb2f68b9f6408064c8a8a = $(`<div id="html_f0b76b903dbbb2f68b9f6408064c8a8a" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Tungurahua<br>Country: Ecuador<br>Type: Stratovolcano<br>Coordinates: [-1.467, -78.442]</div>`)[0];
+                popup_48eda418153b100e28a1ac7b03f694ce.setContent(html_f0b76b903dbbb2f68b9f6408064c8a8a);
+            
+        
+
+        marker_6bcd5d9a24895fed4b5a5ce5f9168af6.bindPopup(popup_48eda418153b100e28a1ac7b03f694ce)
+        ;
+
+        
+    
+    
+            var marker_37d5f93bbc40fff2f94adee552e8296d = L.marker(
+                [63.63, -19.62],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_7d1fc0d7fa68a8dbf0ad76ffe0432461 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_37d5f93bbc40fff2f94adee552e8296d.setIcon(icon_7d1fc0d7fa68a8dbf0ad76ffe0432461);
+        
+    
+        var popup_8ac87db4f11ebe2a1d748062d66b7645 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd85922f172dbeadce7d27b5105145d6 = $(`<div id="html_fd85922f172dbeadce7d27b5105145d6" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Eyjafjallajokull<br>Country: Iceland<br>Type: Stratovolcano<br>Coordinates: [63.63, -19.62]</div>`)[0];
+                popup_8ac87db4f11ebe2a1d748062d66b7645.setContent(html_fd85922f172dbeadce7d27b5105145d6);
+            
+        
+
+        marker_37d5f93bbc40fff2f94adee552e8296d.bindPopup(popup_8ac87db4f11ebe2a1d748062d66b7645)
+        ;
+
+        
+    
+    
+            var marker_ab6e03930805a864600038895d1e64f9 = L.marker(
+                [14.381, -90.601],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_88718a22e805c24dd08cb7d23b115c8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab6e03930805a864600038895d1e64f9.setIcon(icon_88718a22e805c24dd08cb7d23b115c8a);
+        
+    
+        var popup_bbdf0d5d6a63dab8e31a2c9efc76c79a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e51bad6040f0c7a32baffe1a4448f993 = $(`<div id="html_e51bad6040f0c7a32baffe1a4448f993" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Pacaya<br>Country: Guatemala<br>Type: Complex volcano<br>Coordinates: [14.381, -90.601]</div>`)[0];
+                popup_bbdf0d5d6a63dab8e31a2c9efc76c79a.setContent(html_e51bad6040f0c7a32baffe1a4448f993);
+            
+        
+
+        marker_ab6e03930805a864600038895d1e64f9.bindPopup(popup_bbdf0d5d6a63dab8e31a2c9efc76c79a)
+        ;
+
+        
+    
+    
+            var marker_7ed6065bad4a1eed6c71ab65a4ca7008 = L.marker(
+                [16.708, 145.78],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_07cb559dbbeedbe5f52836151e8cfd8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ed6065bad4a1eed6c71ab65a4ca7008.setIcon(icon_07cb559dbbeedbe5f52836151e8cfd8c);
+        
+    
+        var popup_0ff9f1ebb76e7919403ac4072c2ca7e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6434c41c3ff4e3d985f9c334f13f56b = $(`<div id="html_f6434c41c3ff4e3d985f9c334f13f56b" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Sarigan<br>Country: United States<br>Type: Stratovolcano<br>Coordinates: [16.708, 145.78]</div>`)[0];
+                popup_0ff9f1ebb76e7919403ac4072c2ca7e7.setContent(html_f6434c41c3ff4e3d985f9c334f13f56b);
+            
+        
+
+        marker_7ed6065bad4a1eed6c71ab65a4ca7008.bindPopup(popup_0ff9f1ebb76e7919403ac4072c2ca7e7)
+        ;
+
+        
+    
+    
+            var marker_cf9e8b2d4bed824a258e2a9e7d1cc4ea = L.marker(
+                [2.78, 125.48],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_c6be0c3538fc899a6820519f270522ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf9e8b2d4bed824a258e2a9e7d1cc4ea.setIcon(icon_c6be0c3538fc899a6820519f270522ca);
+        
+    
+        var popup_6bb087fa8f832711fa82557e1526eea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98a7c73e6f9188e2128235a4593965c3 = $(`<div id="html_98a7c73e6f9188e2128235a4593965c3" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Karangetang [Api Siau]<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [2.78, 125.48]</div>`)[0];
+                popup_6bb087fa8f832711fa82557e1526eea6.setContent(html_98a7c73e6f9188e2128235a4593965c3);
+            
+        
+
+        marker_cf9e8b2d4bed824a258e2a9e7d1cc4ea.bindPopup(popup_6bb087fa8f832711fa82557e1526eea6)
+        ;
+
+        
+    
+    
+            var marker_af25108cd975c1ff6e5b785f5789f802 = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_b059a33fd58afd578d09e7b670b25d6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af25108cd975c1ff6e5b785f5789f802.setIcon(icon_b059a33fd58afd578d09e7b670b25d6e);
+        
+    
+        var popup_eceeb28ba4f50b349a68c4183ca976cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04c702e559a6fc20ab4b716a31dc42ea = $(`<div id="html_04c702e559a6fc20ab4b716a31dc42ea" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_eceeb28ba4f50b349a68c4183ca976cf.setContent(html_04c702e559a6fc20ab4b716a31dc42ea);
+            
+        
+
+        marker_af25108cd975c1ff6e5b785f5789f802.bindPopup(popup_eceeb28ba4f50b349a68c4183ca976cf)
+        ;
+
+        
+    
+    
+            var marker_1181e9fa79364ef361bcba10e0a40c6d = L.marker(
+                [-7.542, 110.442],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_16cbef050c3207ec96e023fb476dd4fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1181e9fa79364ef361bcba10e0a40c6d.setIcon(icon_16cbef050c3207ec96e023fb476dd4fc);
+        
+    
+        var popup_7f1c20bd6008815dfbd3f3d27dcc8af3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fa6d6299b35f5f2bbc930d3de971107 = $(`<div id="html_4fa6d6299b35f5f2bbc930d3de971107" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Merapi<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-7.542, 110.442]</div>`)[0];
+                popup_7f1c20bd6008815dfbd3f3d27dcc8af3.setContent(html_4fa6d6299b35f5f2bbc930d3de971107);
+            
+        
+
+        marker_1181e9fa79364ef361bcba10e0a40c6d.bindPopup(popup_7f1c20bd6008815dfbd3f3d27dcc8af3)
+        ;
+
+        
+    
+    
+            var marker_f01e9afd2ae4a4bb15d864c3c1df9c3a = L.marker(
+                [-1.467, -78.442],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_102dbbaa9aae50c2ccaa7efc83ac712b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f01e9afd2ae4a4bb15d864c3c1df9c3a.setIcon(icon_102dbbaa9aae50c2ccaa7efc83ac712b);
+        
+    
+        var popup_6a9cd6a7c4b9a7edd15f85c0877f96d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1d88b17e4df12d26721a0a7655cf243 = $(`<div id="html_e1d88b17e4df12d26721a0a7655cf243" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Tungurahua<br>Country: Ecuador<br>Type: Stratovolcano<br>Coordinates: [-1.467, -78.442]</div>`)[0];
+                popup_6a9cd6a7c4b9a7edd15f85c0877f96d7.setContent(html_e1d88b17e4df12d26721a0a7655cf243);
+            
+        
+
+        marker_f01e9afd2ae4a4bb15d864c3c1df9c3a.bindPopup(popup_6a9cd6a7c4b9a7edd15f85c0877f96d7)
+        ;
+
+        
+    
+    
+            var marker_d8888a2bba13b12fca10ae95f349dd9c = L.marker(
+                [-7.942, 112.95],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_97ed3b5beac3feafac2fea6b971cc9a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8888a2bba13b12fca10ae95f349dd9c.setIcon(icon_97ed3b5beac3feafac2fea6b971cc9a3);
+        
+    
+        var popup_b47b65ccb85c35eeefc409592c04c478 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d5174a5d139c7b659c0b695082cd5ad = $(`<div id="html_8d5174a5d139c7b659c0b695082cd5ad" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Name: Tengger Caldera<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-7.942, 112.95]</div>`)[0];
+                popup_b47b65ccb85c35eeefc409592c04c478.setContent(html_8d5174a5d139c7b659c0b695082cd5ad);
+            
+        
+
+        marker_d8888a2bba13b12fca10ae95f349dd9c.bindPopup(popup_b47b65ccb85c35eeefc409592c04c478)
+        ;
+
+        
+    
+    
+            var marker_76fe59b94876807ef9cbc79c3b4b2e4c = L.marker(
+                [-7.542, 110.442],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_7b7fec7150c12b41404eb81af19a79f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76fe59b94876807ef9cbc79c3b4b2e4c.setIcon(icon_7b7fec7150c12b41404eb81af19a79f3);
+        
+    
+        var popup_6c4203507891604b06cf251ca4062df9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e2b767caef08bf1ba3488df8b4befd = $(`<div id="html_68e2b767caef08bf1ba3488df8b4befd" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Merapi<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-7.542, 110.442]</div>`)[0];
+                popup_6c4203507891604b06cf251ca4062df9.setContent(html_68e2b767caef08bf1ba3488df8b4befd);
+            
+        
+
+        marker_76fe59b94876807ef9cbc79c3b4b2e4c.bindPopup(popup_6c4203507891604b06cf251ca4062df9)
+        ;
+
+        
+    
+    
+            var marker_e63a61e497ad23dcc8d4f575324b50aa = L.marker(
+                [31.93, 130.87],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_b6aeab5a29baa02d08c32a390daf871b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e63a61e497ad23dcc8d4f575324b50aa.setIcon(icon_b6aeab5a29baa02d08c32a390daf871b);
+        
+    
+        var popup_e95a306e31788ddfba332e0d519d4d20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_971b4b6e5d84cddc28375f4cdbe293ea = $(`<div id="html_971b4b6e5d84cddc28375f4cdbe293ea" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Kirishima<br>Country: Japan<br>Type: Shield volcano<br>Coordinates: [31.93, 130.87]</div>`)[0];
+                popup_e95a306e31788ddfba332e0d519d4d20.setContent(html_971b4b6e5d84cddc28375f4cdbe293ea);
+            
+        
+
+        marker_e63a61e497ad23dcc8d4f575324b50aa.bindPopup(popup_e95a306e31788ddfba332e0d519d4d20)
+        ;
+
+        
+    
+    
+            var marker_e0852573a8ff17355baa2d4a5a51bbf1 = L.marker(
+                [12.77, 124.05],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_b8859ebeaf0905e9c0cf6795da5e689a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0852573a8ff17355baa2d4a5a51bbf1.setIcon(icon_b8859ebeaf0905e9c0cf6795da5e689a);
+        
+    
+        var popup_e803af62ed1aa3b7ec035042168b8ab0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2e9d5d277c2d80287f1c4b7610a5441 = $(`<div id="html_a2e9d5d277c2d80287f1c4b7610a5441" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Bulusan<br>Country: Philippines<br>Type: Stratovolcano<br>Coordinates: [12.77, 124.05]</div>`)[0];
+                popup_e803af62ed1aa3b7ec035042168b8ab0.setContent(html_a2e9d5d277c2d80287f1c4b7610a5441);
+            
+        
+
+        marker_e0852573a8ff17355baa2d4a5a51bbf1.bindPopup(popup_e803af62ed1aa3b7ec035042168b8ab0)
+        ;
+
+        
+    
+    
+            var marker_af64c95ea3ec515c1709b0ba8115b35a = L.marker(
+                [2.78, 125.48],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_87d44e6d90f482cfa0edcf12470956ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af64c95ea3ec515c1709b0ba8115b35a.setIcon(icon_87d44e6d90f482cfa0edcf12470956ca);
+        
+    
+        var popup_46ef00e2429c94e23bbf1dcf75485ea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d502ed59be76c283cf9a553b990ad09 = $(`<div id="html_5d502ed59be76c283cf9a553b990ad09" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Karangetang [Api Siau]<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [2.78, 125.48]</div>`)[0];
+                popup_46ef00e2429c94e23bbf1dcf75485ea6.setContent(html_5d502ed59be76c283cf9a553b990ad09);
+            
+        
+
+        marker_af64c95ea3ec515c1709b0ba8115b35a.bindPopup(popup_46ef00e2429c94e23bbf1dcf75485ea6)
+        ;
+
+        
+    
+    
+            var marker_22150a38864c563d9fef1dfdc725024c = L.marker(
+                [-1.467, -78.442],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_c93c844060025cfac900a05c1636e128 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22150a38864c563d9fef1dfdc725024c.setIcon(icon_c93c844060025cfac900a05c1636e128);
+        
+    
+        var popup_10852b34d84e48b201cb85bf2dae0407 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca84ce1fa809c309b04cc562e5385008 = $(`<div id="html_ca84ce1fa809c309b04cc562e5385008" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Tungurahua<br>Country: Ecuador<br>Type: Stratovolcano<br>Coordinates: [-1.467, -78.442]</div>`)[0];
+                popup_10852b34d84e48b201cb85bf2dae0407.setContent(html_ca84ce1fa809c309b04cc562e5385008);
+            
+        
+
+        marker_22150a38864c563d9fef1dfdc725024c.bindPopup(popup_10852b34d84e48b201cb85bf2dae0407)
+        ;
+
+        
+    
+    
+            var marker_ae1ac62fb7f4fa6161306048f034963c = L.marker(
+                [-40.59, -72.117],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_e9b51dec271f1d02361a3625c23e18ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae1ac62fb7f4fa6161306048f034963c.setIcon(icon_e9b51dec271f1d02361a3625c23e18ab);
+        
+    
+        var popup_90d70555efae3c39a9bc5c0180834b01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8562018c95c71505dfed288dd6af30a = $(`<div id="html_f8562018c95c71505dfed288dd6af30a" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Puyehue<br>Country: Chile<br>Type: Stratovolcano<br>Coordinates: [-40.59, -72.117]</div>`)[0];
+                popup_90d70555efae3c39a9bc5c0180834b01.setContent(html_f8562018c95c71505dfed288dd6af30a);
+            
+        
+
+        marker_ae1ac62fb7f4fa6161306048f034963c.bindPopup(popup_90d70555efae3c39a9bc5c0180834b01)
+        ;
+
+        
+    
+    
+            var marker_2e57a6e6e4f2626cb390c8d189f3074f = L.marker(
+                [13.37, 41.7],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_26b6f6009ef23844000753eee49728d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e57a6e6e4f2626cb390c8d189f3074f.setIcon(icon_26b6f6009ef23844000753eee49728d0);
+        
+    
+        var popup_8287ecc52a05380053226e7efb513f57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85d40bf1ae943e9374f201827e8ff363 = $(`<div id="html_85d40bf1ae943e9374f201827e8ff363" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Nabro<br>Country: Eritrea<br>Type: Stratovolcano<br>Coordinates: [13.37, 41.7]</div>`)[0];
+                popup_8287ecc52a05380053226e7efb513f57.setContent(html_85d40bf1ae943e9374f201827e8ff363);
+            
+        
+
+        marker_2e57a6e6e4f2626cb390c8d189f3074f.bindPopup(popup_8287ecc52a05380053226e7efb513f57)
+        ;
+
+        
+    
+    
+            var marker_1fb128f5cd3f323d5ae7df9df0856108 = L.marker(
+                [63.63, -19.05],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_67e39a12ad42840d21566f9bc452b624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1fb128f5cd3f323d5ae7df9df0856108.setIcon(icon_67e39a12ad42840d21566f9bc452b624);
+        
+    
+        var popup_eb0dd669d9d4538adecc4bbec9abd4a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e395573720ec60eab4509d9ee4422a6c = $(`<div id="html_e395573720ec60eab4509d9ee4422a6c" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Katla<br>Country: Iceland<br>Type: Subglacial volcano<br>Coordinates: [63.63, -19.05]</div>`)[0];
+                popup_eb0dd669d9d4538adecc4bbec9abd4a8.setContent(html_e395573720ec60eab4509d9ee4422a6c);
+            
+        
+
+        marker_1fb128f5cd3f323d5ae7df9df0856108.bindPopup(popup_eb0dd669d9d4538adecc4bbec9abd4a8)
+        ;
+
+        
+    
+    
+            var marker_b8ab1ea7d1bbf04e7aa309712c4d33e2 = L.marker(
+                [1.358, 124.792],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_ac3c80d35fe44153edcb09f71a014bb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8ab1ea7d1bbf04e7aa309712c4d33e2.setIcon(icon_ac3c80d35fe44153edcb09f71a014bb6);
+        
+    
+        var popup_d8afa9b09ded9fce199bb7c3b1e34af5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88fd86c7b7616f02924d5fe88b64dce7 = $(`<div id="html_88fd86c7b7616f02924d5fe88b64dce7" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Lokon-Empung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [1.358, 124.792]</div>`)[0];
+                popup_d8afa9b09ded9fce199bb7c3b1e34af5.setContent(html_88fd86c7b7616f02924d5fe88b64dce7);
+            
+        
+
+        marker_b8ab1ea7d1bbf04e7aa309712c4d33e2.bindPopup(popup_d8afa9b09ded9fce199bb7c3b1e34af5)
+        ;
+
+        
+    
+    
+            var marker_43b7f2ee433eae86c2085e69f0d72399 = L.marker(
+                [0.8, 127.325],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_f95a25bc49e8747c3fe855420b5a0593 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43b7f2ee433eae86c2085e69f0d72399.setIcon(icon_f95a25bc49e8747c3fe855420b5a0593);
+        
+    
+        var popup_79cbfbc4a8c9775b55e8c344760884f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73c3c4dc570e6d1139cf2255754856c2 = $(`<div id="html_73c3c4dc570e6d1139cf2255754856c2" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Name: Gamalama<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [0.8, 127.325]</div>`)[0];
+                popup_79cbfbc4a8c9775b55e8c344760884f8.setContent(html_73c3c4dc570e6d1139cf2255754856c2);
+            
+        
+
+        marker_43b7f2ee433eae86c2085e69f0d72399.bindPopup(popup_79cbfbc4a8c9775b55e8c344760884f8)
+        ;
+
+        
+    
+    
+            var marker_714a89454a01c2ff03a57833ccd91acd = L.marker(
+                [19.425, -155.292],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_1bfe253b39ac2ee4b1b3dac775eecbe4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_714a89454a01c2ff03a57833ccd91acd.setIcon(icon_1bfe253b39ac2ee4b1b3dac775eecbe4);
+        
+    
+        var popup_b04a6135e10480c888ad6298a52fccd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23c1e8f6c8afa0ad0179dbc5dd2884fc = $(`<div id="html_23c1e8f6c8afa0ad0179dbc5dd2884fc" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Name: Kilauea<br>Country: United States<br>Type: Shield volcano<br>Coordinates: [19.425, -155.292]</div>`)[0];
+                popup_b04a6135e10480c888ad6298a52fccd8.setContent(html_23c1e8f6c8afa0ad0179dbc5dd2884fc);
+            
+        
+
+        marker_714a89454a01c2ff03a57833ccd91acd.bindPopup(popup_b04a6135e10480c888ad6298a52fccd8)
+        ;
+
+        
+    
+    
+            var marker_006f46d9795fe83be307399415650105 = L.marker(
+                [19.425, -155.292],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_74461a814639b0c6f2980a90513128d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_006f46d9795fe83be307399415650105.setIcon(icon_74461a814639b0c6f2980a90513128d6);
+        
+    
+        var popup_1fdd5761caba4962e849a14db5375c17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_033ccc9b19fc2033326152370b1f8b88 = $(`<div id="html_033ccc9b19fc2033326152370b1f8b88" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Name: Kilauea<br>Country: United States<br>Type: Shield volcano<br>Coordinates: [19.425, -155.292]</div>`)[0];
+                popup_1fdd5761caba4962e849a14db5375c17.setContent(html_033ccc9b19fc2033326152370b1f8b88);
+            
+        
+
+        marker_006f46d9795fe83be307399415650105.bindPopup(popup_1fdd5761caba4962e849a14db5375c17)
+        ;
+
+        
+    
+    
+            var marker_52422d135029dddd40affc1553a9cde4 = L.marker(
+                [55.83, 160.33],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_f337209a80c8d2668b891fe2da5ada7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_52422d135029dddd40affc1553a9cde4.setIcon(icon_f337209a80c8d2668b891fe2da5ada7d);
+        
+    
+        var popup_2fc5fd998177e210ce8831e1740e4c69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d49431c26e5340e3d5776b163083184 = $(`<div id="html_3d49431c26e5340e3d5776b163083184" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Name: Tolbachik<br>Country: Russia<br>Type: Shield volcano<br>Coordinates: [55.83, 160.33]</div>`)[0];
+                popup_2fc5fd998177e210ce8831e1740e4c69.setContent(html_3d49431c26e5340e3d5776b163083184);
+            
+        
+
+        marker_52422d135029dddd40affc1553a9cde4.bindPopup(popup_2fc5fd998177e210ce8831e1740e4c69)
+        ;
+
+        
+    
+    
+            var marker_098b73afc3a31fd8cfe2a23cc430deae = L.marker(
+                [-7.542, 110.442],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_e929eba3aecb06b911033b6f863d91e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_098b73afc3a31fd8cfe2a23cc430deae.setIcon(icon_e929eba3aecb06b911033b6f863d91e1);
+        
+    
+        var popup_6a250140124ed1726a7bc9868f166ec2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9aa75efb15ef0433aa8d138973d86ab5 = $(`<div id="html_9aa75efb15ef0433aa8d138973d86ab5" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Merapi<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-7.542, 110.442]</div>`)[0];
+                popup_6a250140124ed1726a7bc9868f166ec2.setContent(html_9aa75efb15ef0433aa8d138973d86ab5);
+            
+        
+
+        marker_098b73afc3a31fd8cfe2a23cc430deae.bindPopup(popup_6a250140124ed1726a7bc9868f166ec2)
+        ;
+
+        
+    
+    
+            var marker_3e8c5631ccced601c8b8583e10e11ca5 = L.marker(
+                [-8.32, 121.708],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_e8dd57ca881c691e2b6c82155e17967b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e8c5631ccced601c8b8583e10e11ca5.setIcon(icon_e8dd57ca881c691e2b6c82155e17967b);
+        
+    
+        var popup_c2c1633781c1370608d8a1122c79ce57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aa495dcc3b58a873cdd8163afa2dcd5 = $(`<div id="html_1aa495dcc3b58a873cdd8163afa2dcd5" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Paluweh<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-8.32, 121.708]</div>`)[0];
+                popup_c2c1633781c1370608d8a1122c79ce57.setContent(html_1aa495dcc3b58a873cdd8163afa2dcd5);
+            
+        
+
+        marker_3e8c5631ccced601c8b8583e10e11ca5.bindPopup(popup_c2c1633781c1370608d8a1122c79ce57)
+        ;
+
+        
+    
+    
+            var marker_dabfdd38e1e0d3b9124a96de3e7928fa = L.marker(
+                [13.257, 123.685],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_4c6358e5a0dfd944e1b31cd6b32f1452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dabfdd38e1e0d3b9124a96de3e7928fa.setIcon(icon_4c6358e5a0dfd944e1b31cd6b32f1452);
+        
+    
+        var popup_e7cff409fc2bdd0dc5f867c00fd74262 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94e0aa43b7b759ae32749ba7a1844cca = $(`<div id="html_94e0aa43b7b759ae32749ba7a1844cca" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Mayon<br>Country: Philippines<br>Type: Stratovolcano<br>Coordinates: [13.257, 123.685]</div>`)[0];
+                popup_e7cff409fc2bdd0dc5f867c00fd74262.setContent(html_94e0aa43b7b759ae32749ba7a1844cca);
+            
+        
+
+        marker_dabfdd38e1e0d3b9124a96de3e7928fa.bindPopup(popup_e7cff409fc2bdd0dc5f867c00fd74262)
+        ;
+
+        
+    
+    
+            var marker_fc5c021324f9ab7406b973a20dba6638 = L.marker(
+                [-8.32, 121.708],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_7cf34e0d964ed807ebaafc7dc611a0fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc5c021324f9ab7406b973a20dba6638.setIcon(icon_7cf34e0d964ed807ebaafc7dc611a0fc);
+        
+    
+        var popup_ac442ccb4117c287ec05ac3cc7ac1b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63e770491c183508c3aad77371af779b = $(`<div id="html_63e770491c183508c3aad77371af779b" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Paluweh<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-8.32, 121.708]</div>`)[0];
+                popup_ac442ccb4117c287ec05ac3cc7ac1b3e.setContent(html_63e770491c183508c3aad77371af779b);
+            
+        
+
+        marker_fc5c021324f9ab7406b973a20dba6638.bindPopup(popup_ac442ccb4117c287ec05ac3cc7ac1b3e)
+        ;
+
+        
+    
+    
+            var marker_04f7f593a5d273c409bb6b24845c9142 = L.marker(
+                [-16.355, -70.903],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_39e3e50dcfd1cc302c303b87911a687c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04f7f593a5d273c409bb6b24845c9142.setIcon(icon_39e3e50dcfd1cc302c303b87911a687c);
+        
+    
+        var popup_66919624e95793baba02d091513f473c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b8d8d4fb6b2faac9ca1fc9802df6775 = $(`<div id="html_5b8d8d4fb6b2faac9ca1fc9802df6775" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Ubinas<br>Country: Peru<br>Type: Stratovolcano<br>Coordinates: [-16.355, -70.903]</div>`)[0];
+                popup_66919624e95793baba02d091513f473c.setContent(html_5b8d8d4fb6b2faac9ca1fc9802df6775);
+            
+        
+
+        marker_04f7f593a5d273c409bb6b24845c9142.bindPopup(popup_66919624e95793baba02d091513f473c)
+        ;
+
+        
+    
+    
+            var marker_c3282a955aef188c21e8748b29c41e8a = L.marker(
+                [31.58, 130.67],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_8589db50fa631870163a150c8d62adf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3282a955aef188c21e8748b29c41e8a.setIcon(icon_8589db50fa631870163a150c8d62adf3);
+        
+    
+        var popup_c17e38c86030f90548a49180271fd8a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26c20e5ebf68c33f8f3e424fb2730d72 = $(`<div id="html_26c20e5ebf68c33f8f3e424fb2730d72" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Sakura-jima<br>Country: Japan<br>Type: Stratovolcano<br>Coordinates: [31.58, 130.67]</div>`)[0];
+                popup_c17e38c86030f90548a49180271fd8a2.setContent(html_26c20e5ebf68c33f8f3e424fb2730d72);
+            
+        
+
+        marker_c3282a955aef188c21e8748b29c41e8a.bindPopup(popup_c17e38c86030f90548a49180271fd8a2)
+        ;
+
+        
+    
+    
+            var marker_47d8f09f0200e2e63160232d9e57ac4d = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_ab94dd7583091bdf9bf4a352aa631754 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_47d8f09f0200e2e63160232d9e57ac4d.setIcon(icon_ab94dd7583091bdf9bf4a352aa631754);
+        
+    
+        var popup_7f9bb2482791572a3e1edca0e1fbf398 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73ceb4d441431158cc1d68295643bafb = $(`<div id="html_73ceb4d441431158cc1d68295643bafb" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_7f9bb2482791572a3e1edca0e1fbf398.setContent(html_73ceb4d441431158cc1d68295643bafb);
+            
+        
+
+        marker_47d8f09f0200e2e63160232d9e57ac4d.bindPopup(popup_7f9bb2482791572a3e1edca0e1fbf398)
+        ;
+
+        
+    
+    
+            var marker_8f18c35ba9d93ff96c67e57886228834 = L.marker(
+                [-38.12, 176.5],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_834d283f66a29a4eb805039ee9911ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8f18c35ba9d93ff96c67e57886228834.setIcon(icon_834d283f66a29a4eb805039ee9911ea2);
+        
+    
+        var popup_b90d8a42cd9d63658f2f527be8d9acba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cab391d24f0d77d484b85ee456f34d5 = $(`<div id="html_0cab391d24f0d77d484b85ee456f34d5" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Name: Okataina<br>Country: New Zealand<br>Type: Lava dome<br>Coordinates: [-38.12, 176.5]</div>`)[0];
+                popup_b90d8a42cd9d63658f2f527be8d9acba.setContent(html_0cab391d24f0d77d484b85ee456f34d5);
+            
+        
+
+        marker_8f18c35ba9d93ff96c67e57886228834.bindPopup(popup_b90d8a42cd9d63658f2f527be8d9acba)
+        ;
+
+        
+    
+    
+            var marker_171dba78264e998b6d60b0f8512d1e7d = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_b392298d3225b5eb8a7c7afe7b10e5db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_171dba78264e998b6d60b0f8512d1e7d.setIcon(icon_b392298d3225b5eb8a7c7afe7b10e5db);
+        
+    
+        var popup_3f9ecac52a0809cde39bbe9274acb220 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34844187bed335d0d2677a244cb429bb = $(`<div id="html_34844187bed335d0d2677a244cb429bb" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_3f9ecac52a0809cde39bbe9274acb220.setContent(html_34844187bed335d0d2677a244cb429bb);
+            
+        
+
+        marker_171dba78264e998b6d60b0f8512d1e7d.bindPopup(popup_3f9ecac52a0809cde39bbe9274acb220)
+        ;
+
+        
+    
+    
+            var marker_51a3c687593a6a78be635a21e54630f2 = L.marker(
+                [-7.93, 112.308],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_993fe9a2e22ab86f18fdba79055461d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51a3c687593a6a78be635a21e54630f2.setIcon(icon_993fe9a2e22ab86f18fdba79055461d6);
+        
+    
+        var popup_5aa8e2b33e4b891917ecd19d6ac0703f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1190a20377a427321229d7c1943b069b = $(`<div id="html_1190a20377a427321229d7c1943b069b" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Name: Kelut<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-7.93, 112.308]</div>`)[0];
+                popup_5aa8e2b33e4b891917ecd19d6ac0703f.setContent(html_1190a20377a427321229d7c1943b069b);
+            
+        
+
+        marker_51a3c687593a6a78be635a21e54630f2.bindPopup(popup_5aa8e2b33e4b891917ecd19d6ac0703f)
+        ;
+
+        
+    
+    
+            var marker_ffad630788e4187c44b1ac51aeb5efb1 = L.marker(
+                [35.9, 137.48],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_540c3627313286efeaf773ecfa421076 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffad630788e4187c44b1ac51aeb5efb1.setIcon(icon_540c3627313286efeaf773ecfa421076);
+        
+    
+        var popup_4626d4b850f5ac39a03cf1f4845e51c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_003bd13695ec27612eaafb6ed414b93d = $(`<div id="html_003bd13695ec27612eaafb6ed414b93d" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Name: On-take<br>Country: Japan<br>Type: Complex volcano<br>Coordinates: [35.9, 137.48]</div>`)[0];
+                popup_4626d4b850f5ac39a03cf1f4845e51c2.setContent(html_003bd13695ec27612eaafb6ed414b93d);
+            
+        
+
+        marker_ffad630788e4187c44b1ac51aeb5efb1.bindPopup(popup_4626d4b850f5ac39a03cf1f4845e51c2)
+        ;
+
+        
+    
+    
+            var marker_9c47dd5377ae35bf3ee231fe959a3196 = L.marker(
+                [19.425, -155.292],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_0b36dae36bf8326a13dae7010aff7691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9c47dd5377ae35bf3ee231fe959a3196.setIcon(icon_0b36dae36bf8326a13dae7010aff7691);
+        
+    
+        var popup_d8c0b2695ffc227814b5e7bc1c653a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0bcdb216adeaf6f366c75cf57e20ec6 = $(`<div id="html_b0bcdb216adeaf6f366c75cf57e20ec6" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Name: Kilauea<br>Country: United States<br>Type: Shield volcano<br>Coordinates: [19.425, -155.292]</div>`)[0];
+                popup_d8c0b2695ffc227814b5e7bc1c653a32.setContent(html_b0bcdb216adeaf6f366c75cf57e20ec6);
+            
+        
+
+        marker_9c47dd5377ae35bf3ee231fe959a3196.bindPopup(popup_d8c0b2695ffc227814b5e7bc1c653a32)
+        ;
+
+        
+    
+    
+            var marker_a52216cf7ddc759041de76c7ee19a135 = L.marker(
+                [14.95, -24.35],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_3035bb41a4cfb4641ca9c6a592bd0bfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a52216cf7ddc759041de76c7ee19a135.setIcon(icon_3035bb41a4cfb4641ca9c6a592bd0bfd);
+        
+    
+        var popup_26f2c574e9d7b5d0c790fa95eb0b3473 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7937660bf5884e36b622bb6290f0d58b = $(`<div id="html_7937660bf5884e36b622bb6290f0d58b" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Name: Fogo<br>Country: Cape Verde<br>Type: Stratovolcano<br>Coordinates: [14.95, -24.35]</div>`)[0];
+                popup_26f2c574e9d7b5d0c790fa95eb0b3473.setContent(html_7937660bf5884e36b622bb6290f0d58b);
+            
+        
+
+        marker_a52216cf7ddc759041de76c7ee19a135.bindPopup(popup_26f2c574e9d7b5d0c790fa95eb0b3473)
+        ;
+
+        
+    
+    
+            var marker_0b2d68808fa37ad9fe516a8ce7a0b563 = L.marker(
+                [0.8, 127.325],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_2668b9b65b93130b8092e79205251c72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b2d68808fa37ad9fe516a8ce7a0b563.setIcon(icon_2668b9b65b93130b8092e79205251c72);
+        
+    
+        var popup_d3e29e3cc1148f39bce78e58c8a519f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9348d95f1b01b2f5da051d39593471f = $(`<div id="html_f9348d95f1b01b2f5da051d39593471f" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Name: Gamalama<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [0.8, 127.325]</div>`)[0];
+                popup_d3e29e3cc1148f39bce78e58c8a519f6.setContent(html_f9348d95f1b01b2f5da051d39593471f);
+            
+        
+
+        marker_0b2d68808fa37ad9fe516a8ce7a0b563.bindPopup(popup_d3e29e3cc1148f39bce78e58c8a519f6)
+        ;
+
+        
+    
+    
+            var marker_a99bac9ae2771bfa244b0dee57b97f35 = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_52cb732367cb704826b3e876bf4b0f74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a99bac9ae2771bfa244b0dee57b97f35.setIcon(icon_52cb732367cb704826b3e876bf4b0f74);
+        
+    
+        var popup_b66b253161a5a50f79d392cc2002b02c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_329012ac80d8cb4b10cf1d6d02a35ab4 = $(`<div id="html_329012ac80d8cb4b10cf1d6d02a35ab4" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_b66b253161a5a50f79d392cc2002b02c.setContent(html_329012ac80d8cb4b10cf1d6d02a35ab4);
+            
+        
+
+        marker_a99bac9ae2771bfa244b0dee57b97f35.bindPopup(popup_b66b253161a5a50f79d392cc2002b02c)
+        ;
+
+        
+    
+    
+            var marker_b68efa6c301630c6fb52e7a28bdcecf5 = L.marker(
+                [-41.326, -72.614],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_be47f0cff4c4b2bde0703e91d2ab95c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b68efa6c301630c6fb52e7a28bdcecf5.setIcon(icon_be47f0cff4c4b2bde0703e91d2ab95c3);
+        
+    
+        var popup_76b78dfb357169cbc79b6d47931b45f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46f23472e20a91062646e5da54bac9ba = $(`<div id="html_46f23472e20a91062646e5da54bac9ba" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Name: Calbuco<br>Country: Chile<br>Type: Stratovolcano<br>Coordinates: [-41.326, -72.614]</div>`)[0];
+                popup_76b78dfb357169cbc79b6d47931b45f4.setContent(html_46f23472e20a91062646e5da54bac9ba);
+            
+        
+
+        marker_b68efa6c301630c6fb52e7a28bdcecf5.bindPopup(popup_76b78dfb357169cbc79b6d47931b45f4)
+        ;
+
+        
+    
+    
+            var marker_8a0c3131d72b5d3f504d42316a6f5e4d = L.marker(
+                [2.78, 125.48],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_e3e431bf79fd813d15408b50d4a7e797 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a0c3131d72b5d3f504d42316a6f5e4d.setIcon(icon_e3e431bf79fd813d15408b50d4a7e797);
+        
+    
+        var popup_9b3d47b142c484c28e7bdb2963626d08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3273ddc98ed15abf335e29e048717ac3 = $(`<div id="html_3273ddc98ed15abf335e29e048717ac3" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Name: Karangetang [Api Siau]<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [2.78, 125.48]</div>`)[0];
+                popup_9b3d47b142c484c28e7bdb2963626d08.setContent(html_3273ddc98ed15abf335e29e048717ac3);
+            
+        
+
+        marker_8a0c3131d72b5d3f504d42316a6f5e4d.bindPopup(popup_9b3d47b142c484c28e7bdb2963626d08)
+        ;
+
+        
+    
+    
+            var marker_f21494fa9b947771b0d4cc7e8d9df13f = L.marker(
+                [-4.1, 145.061],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_4733ccd4302b576814e9b7863fa9af49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f21494fa9b947771b0d4cc7e8d9df13f.setIcon(icon_4733ccd4302b576814e9b7863fa9af49);
+        
+    
+        var popup_fb4174f6d6a0c5d589c7e7a7c040b14c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01a4cff8af1c26a204b8f81f4692e7d2 = $(`<div id="html_01a4cff8af1c26a204b8f81f4692e7d2" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Name: Manam<br>Country: Papua New Guinea<br>Type: Stratovolcano<br>Coordinates: [-4.1, 145.061]</div>`)[0];
+                popup_fb4174f6d6a0c5d589c7e7a7c040b14c.setContent(html_01a4cff8af1c26a204b8f81f4692e7d2);
+            
+        
+
+        marker_f21494fa9b947771b0d4cc7e8d9df13f.bindPopup(popup_fb4174f6d6a0c5d589c7e7a7c040b14c)
+        ;
+
+        
+    
+    
+            var marker_b58e7cbbd995aaa1885c76b1a59ac534 = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_eb67d3ea99a7523370abe36a26111457 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b58e7cbbd995aaa1885c76b1a59ac534.setIcon(icon_eb67d3ea99a7523370abe36a26111457);
+        
+    
+        var popup_0d2e81dd5fb083224db73f3650179db1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5292874509105db39fb4f43e212f1afe = $(`<div id="html_5292874509105db39fb4f43e212f1afe" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_0d2e81dd5fb083224db73f3650179db1.setContent(html_5292874509105db39fb4f43e212f1afe);
+            
+        
+
+        marker_b58e7cbbd995aaa1885c76b1a59ac534.bindPopup(popup_0d2e81dd5fb083224db73f3650179db1)
+        ;
+
+        
+    
+    
+            var marker_7119d7a431b8c9180f9c26f74ef18f6a = L.marker(
+                [-38.12, 176.5],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_80a313b2e85bfdf06985cb28c9242f71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_7119d7a431b8c9180f9c26f74ef18f6a.setIcon(icon_80a313b2e85bfdf06985cb28c9242f71);
+        
+    
+        var popup_06498cdeb2dbe3288f39bc083fefb172 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18e855d02498dbd7f517c2b67781c025 = $(`<div id="html_18e855d02498dbd7f517c2b67781c025" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Name: Okataina<br>Country: New Zealand<br>Type: Lava dome<br>Coordinates: [-38.12, 176.5]</div>`)[0];
+                popup_06498cdeb2dbe3288f39bc083fefb172.setContent(html_18e855d02498dbd7f517c2b67781c025);
+            
+        
+
+        marker_7119d7a431b8c9180f9c26f74ef18f6a.bindPopup(popup_06498cdeb2dbe3288f39bc083fefb172)
+        ;
+
+        
+    
+    
+            var marker_915f277aaf54f750cefc3d4f2a31d754 = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_ebf9f15957a61eed9ff33455262e4fc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_915f277aaf54f750cefc3d4f2a31d754.setIcon(icon_ebf9f15957a61eed9ff33455262e4fc1);
+        
+    
+        var popup_4fa16147b94133853ebe0f71fbaf1d89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a612db55055329a8d6afbcc8ac2d030 = $(`<div id="html_8a612db55055329a8d6afbcc8ac2d030" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_4fa16147b94133853ebe0f71fbaf1d89.setContent(html_8a612db55055329a8d6afbcc8ac2d030);
+            
+        
+
+        marker_915f277aaf54f750cefc3d4f2a31d754.bindPopup(popup_4fa16147b94133853ebe0f71fbaf1d89)
+        ;
+
+        
+    
+    
+            var marker_520bf1bf8b5e7ecc4ff05369e7eb32a4 = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_19a9169049d95ed7e70fe09bb83caaa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_520bf1bf8b5e7ecc4ff05369e7eb32a4.setIcon(icon_19a9169049d95ed7e70fe09bb83caaa4);
+        
+    
+        var popup_9758bafe5d0e8d74b1aadf993fe1359b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22f3bc4f39f94ee74d28de3ba823dfb8 = $(`<div id="html_22f3bc4f39f94ee74d28de3ba823dfb8" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_9758bafe5d0e8d74b1aadf993fe1359b.setContent(html_22f3bc4f39f94ee74d28de3ba823dfb8);
+            
+        
+
+        marker_520bf1bf8b5e7ecc4ff05369e7eb32a4.bindPopup(popup_9758bafe5d0e8d74b1aadf993fe1359b)
+        ;
+
+        
+    
+    
+            var marker_437e5f2fa4f077ca9a47f6d4019d7fbe = L.marker(
+                [44.43, -110.67],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_2fa3e48f23703a3cac46d6fba3bfbf2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_437e5f2fa4f077ca9a47f6d4019d7fbe.setIcon(icon_2fa3e48f23703a3cac46d6fba3bfbf2d);
+        
+    
+        var popup_785015013ae709f62c19a2363301bfe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a93d4a2c605ea5b78e5f3c18a2880c1a = $(`<div id="html_a93d4a2c605ea5b78e5f3c18a2880c1a" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Name: Yellowstone<br>Country: United States<br>Type: Caldera<br>Coordinates: [44.43, -110.67]</div>`)[0];
+                popup_785015013ae709f62c19a2363301bfe4.setContent(html_a93d4a2c605ea5b78e5f3c18a2880c1a);
+            
+        
+
+        marker_437e5f2fa4f077ca9a47f6d4019d7fbe.bindPopup(popup_785015013ae709f62c19a2363301bfe4)
+        ;
+
+        
+    
+    
+            var marker_1d60dc8801282bda9cbe536a35f58b3c = L.marker(
+                [-8.42, 116.47],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_d8a2a518b301ac75d4c4998a66379904 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d60dc8801282bda9cbe536a35f58b3c.setIcon(icon_d8a2a518b301ac75d4c4998a66379904);
+        
+    
+        var popup_f6aadf37b7164acf3246a1fb990fed5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d52acc745ac561239e0bfaeb291f946d = $(`<div id="html_d52acc745ac561239e0bfaeb291f946d" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Name: Rinjani<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-8.42, 116.47]</div>`)[0];
+                popup_f6aadf37b7164acf3246a1fb990fed5d.setContent(html_d52acc745ac561239e0bfaeb291f946d);
+            
+        
+
+        marker_1d60dc8801282bda9cbe536a35f58b3c.bindPopup(popup_f6aadf37b7164acf3246a1fb990fed5d)
+        ;
+
+        
+    
+    
+            var marker_947ec5e8618809e63b4fe1a170fb123c = L.marker(
+                [32.88, 131.1],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_d57b2f950f0a64c24fbe701dcb8a0d57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_947ec5e8618809e63b4fe1a170fb123c.setIcon(icon_d57b2f950f0a64c24fbe701dcb8a0d57);
+        
+    
+        var popup_452c88f335d740093a1d5873df9979d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8454f06054493d221a388f023ce254e0 = $(`<div id="html_8454f06054493d221a388f023ce254e0" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Name: Aso<br>Country: Japan<br>Type: Caldera<br>Coordinates: [32.88, 131.1]</div>`)[0];
+                popup_452c88f335d740093a1d5873df9979d1.setContent(html_8454f06054493d221a388f023ce254e0);
+            
+        
+
+        marker_947ec5e8618809e63b4fe1a170fb123c.bindPopup(popup_452c88f335d740093a1d5873df9979d1)
+        ;
+
+        
+    
+    
+            var marker_ed7be4db2c4d6f2a3a95fd8f2d7f1d5c = L.marker(
+                [37.734, 15.004],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_8b7388f4a4b279a3295949a7f0e42599 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed7be4db2c4d6f2a3a95fd8f2d7f1d5c.setIcon(icon_8b7388f4a4b279a3295949a7f0e42599);
+        
+    
+        var popup_9ddd5f2b1cde3f49e6d45ecb2d66ab5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4e3e4166bef37a9a9cd8431a9d1630d = $(`<div id="html_d4e3e4166bef37a9a9cd8431a9d1630d" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Etna<br>Country: Italy<br>Type: Stratovolcano<br>Coordinates: [37.734, 15.004]</div>`)[0];
+                popup_9ddd5f2b1cde3f49e6d45ecb2d66ab5d.setContent(html_d4e3e4166bef37a9a9cd8431a9d1630d);
+            
+        
+
+        marker_ed7be4db2c4d6f2a3a95fd8f2d7f1d5c.bindPopup(popup_9ddd5f2b1cde3f49e6d45ecb2d66ab5d)
+        ;
+
+        
+    
+    
+            var marker_afeeaf4c21dea54071ef4fc3df0c1907 = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_b992d17dd71e9caa7d1197fc5212c8a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_afeeaf4c21dea54071ef4fc3df0c1907.setIcon(icon_b992d17dd71e9caa7d1197fc5212c8a2);
+        
+    
+        var popup_c6b57627890bed6ca4c06ad91265a394 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06f2e1f74f0521d7f3ac5d4ffe18b9d0 = $(`<div id="html_06f2e1f74f0521d7f3ac5d4ffe18b9d0" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_c6b57627890bed6ca4c06ad91265a394.setContent(html_06f2e1f74f0521d7f3ac5d4ffe18b9d0);
+            
+        
+
+        marker_afeeaf4c21dea54071ef4fc3df0c1907.bindPopup(popup_c6b57627890bed6ca4c06ad91265a394)
+        ;
+
+        
+    
+    
+            var marker_62a00106fccff25fffe5de1b1c6b3577 = L.marker(
+                [14.473, -90.88],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_4107f793d5273e9318e8c00950a57951 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62a00106fccff25fffe5de1b1c6b3577.setIcon(icon_4107f793d5273e9318e8c00950a57951);
+        
+    
+        var popup_36f66e8ca00ce5901af2c2cbba2c6cfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fafb26443e5133fb653a197514ccd9f = $(`<div id="html_1fafb26443e5133fb653a197514ccd9f" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Fuego<br>Country: Guatemala<br>Type: Stratovolcano<br>Coordinates: [14.473, -90.88]</div>`)[0];
+                popup_36f66e8ca00ce5901af2c2cbba2c6cfb.setContent(html_1fafb26443e5133fb653a197514ccd9f);
+            
+        
+
+        marker_62a00106fccff25fffe5de1b1c6b3577.bindPopup(popup_36f66e8ca00ce5901af2c2cbba2c6cfb)
+        ;
+
+        
+    
+    
+            var marker_a979fa57b74f38656347303259358e41 = L.marker(
+                [-7.2, 109.92],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_3b1a3585681caf1ef32788ef66379b43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a979fa57b74f38656347303259358e41.setIcon(icon_3b1a3585681caf1ef32788ef66379b43);
+        
+    
+        var popup_c031fb0d1955e5ededa4ed4cda16caac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_541e1bf7ca48a231dbfbe2ebc2205a78 = $(`<div id="html_541e1bf7ca48a231dbfbe2ebc2205a78" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Dieng Volc Complex<br>Country: Indonesia<br>Type: Complex volcano<br>Coordinates: [-7.2, 109.92]</div>`)[0];
+                popup_c031fb0d1955e5ededa4ed4cda16caac.setContent(html_541e1bf7ca48a231dbfbe2ebc2205a78);
+            
+        
+
+        marker_a979fa57b74f38656347303259358e41.bindPopup(popup_c031fb0d1955e5ededa4ed4cda16caac)
+        ;
+
+        
+    
+    
+            var marker_e8f4e761e8ebe7ea0d28027a67eb74cd = L.marker(
+                [40.827, 14.139],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_f31e86eb8b6151df47c5159921f38d5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e8f4e761e8ebe7ea0d28027a67eb74cd.setIcon(icon_f31e86eb8b6151df47c5159921f38d5b);
+        
+    
+        var popup_e238028e76c2903543495bb3b63bbbcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69cbd7f6b918c65ba192a9dbc9fe6dfe = $(`<div id="html_69cbd7f6b918c65ba192a9dbc9fe6dfe" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Campi Flegrei<br>Country: Italy<br>Type: Caldera<br>Coordinates: [40.827, 14.139]</div>`)[0];
+                popup_e238028e76c2903543495bb3b63bbbcf.setContent(html_69cbd7f6b918c65ba192a9dbc9fe6dfe);
+            
+        
+
+        marker_e8f4e761e8ebe7ea0d28027a67eb74cd.bindPopup(popup_e238028e76c2903543495bb3b63bbbcf)
+        ;
+
+        
+    
+    
+            var marker_410a240cd3b7b77be19d48146366085f = L.marker(
+                [-15.4, 167.83],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_44c2177fcbc01f2edab586f53d401ade = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_410a240cd3b7b77be19d48146366085f.setIcon(icon_44c2177fcbc01f2edab586f53d401ade);
+        
+    
+        var popup_538d4d85cd7f497eb3e68c7ba8488de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a4897f901b42999cdefdb10486602b = $(`<div id="html_36a4897f901b42999cdefdb10486602b" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Aoba<br>Country: Vanuatu<br>Type: Shield volcano<br>Coordinates: [-15.4, 167.83]</div>`)[0];
+                popup_538d4d85cd7f497eb3e68c7ba8488de2.setContent(html_36a4897f901b42999cdefdb10486602b);
+            
+        
+
+        marker_410a240cd3b7b77be19d48146366085f.bindPopup(popup_538d4d85cd7f497eb3e68c7ba8488de2)
+        ;
+
+        
+    
+    
+            var marker_5c4bf563548a0e5d9a76b82b67ff5ae4 = L.marker(
+                [-7.542, 110.442],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_ea23998f5972a24721cca95a07bc0f18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c4bf563548a0e5d9a76b82b67ff5ae4.setIcon(icon_ea23998f5972a24721cca95a07bc0f18);
+        
+    
+        var popup_4cd4a0f0c5480449a7c4018cd3ab1702 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6955b8dcfb15b29f74188af8bb28131d = $(`<div id="html_6955b8dcfb15b29f74188af8bb28131d" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Merapi<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-7.542, 110.442]</div>`)[0];
+                popup_4cd4a0f0c5480449a7c4018cd3ab1702.setContent(html_6955b8dcfb15b29f74188af8bb28131d);
+            
+        
+
+        marker_5c4bf563548a0e5d9a76b82b67ff5ae4.bindPopup(popup_4cd4a0f0c5480449a7c4018cd3ab1702)
+        ;
+
+        
+    
+    
+            var marker_ca26df4790dd1cccfaa16551f0b52b87 = L.marker(
+                [3.17, 98.392],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_0523d28814047abb358cf96f0bfa2baf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca26df4790dd1cccfaa16551f0b52b87.setIcon(icon_0523d28814047abb358cf96f0bfa2baf);
+        
+    
+        var popup_0ce29c768d76e042cb06a300d5ee14c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8755021830dc4420819ed3bfae0386e1 = $(`<div id="html_8755021830dc4420819ed3bfae0386e1" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Name: Sinabung<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [3.17, 98.392]</div>`)[0];
+                popup_0ce29c768d76e042cb06a300d5ee14c1.setContent(html_8755021830dc4420819ed3bfae0386e1);
+            
+        
+
+        marker_ca26df4790dd1cccfaa16551f0b52b87.bindPopup(popup_0ce29c768d76e042cb06a300d5ee14c1)
+        ;
+
+        
+    
+    
+            var marker_99c15ac230b2b9295e19c612710bc83d = L.marker(
+                [-3.62, 144.62],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_652057d54496d9672860ff8ac60c3a46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99c15ac230b2b9295e19c612710bc83d.setIcon(icon_652057d54496d9672860ff8ac60c3a46);
+        
+    
+        var popup_6e0f2fa3fbf713f738b4b36880248c49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee350bfb2b8343b6d3e6e76eef3965fa = $(`<div id="html_ee350bfb2b8343b6d3e6e76eef3965fa" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Kadovar<br>Country: Papua New Guinea<br>Type: Stratovolcano<br>Coordinates: [-3.62, 144.62]</div>`)[0];
+                popup_6e0f2fa3fbf713f738b4b36880248c49.setContent(html_ee350bfb2b8343b6d3e6e76eef3965fa);
+            
+        
+
+        marker_99c15ac230b2b9295e19c612710bc83d.bindPopup(popup_6e0f2fa3fbf713f738b4b36880248c49)
+        ;
+
+        
+    
+    
+            var marker_29b8388dfd7a0bacb1363e9148932f40 = L.marker(
+                [13.257, 123.685],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_aa6a8efb5a27802d6d16224ebc6de28e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_29b8388dfd7a0bacb1363e9148932f40.setIcon(icon_aa6a8efb5a27802d6d16224ebc6de28e);
+        
+    
+        var popup_c9efe075c1cce8dae8f7bfd10523a4a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b2d1799c821a94c7506eccbbfe68032 = $(`<div id="html_2b2d1799c821a94c7506eccbbfe68032" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Mayon<br>Country: Philippines<br>Type: Stratovolcano<br>Coordinates: [13.257, 123.685]</div>`)[0];
+                popup_c9efe075c1cce8dae8f7bfd10523a4a3.setContent(html_2b2d1799c821a94c7506eccbbfe68032);
+            
+        
+
+        marker_29b8388dfd7a0bacb1363e9148932f40.bindPopup(popup_c9efe075c1cce8dae8f7bfd10523a4a3)
+        ;
+
+        
+    
+    
+            var marker_46bc1e45fba07b611e2cd294eb1a5590 = L.marker(
+                [36.62, 138.55],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_a0b628889b51f98d217287da2bb58279 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46bc1e45fba07b611e2cd294eb1a5590.setIcon(icon_a0b628889b51f98d217287da2bb58279);
+        
+    
+        var popup_ea1adf5e93b4bdebc6eeb03fc0832316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bb4b8304b3ad1be6b3009dc996176c8 = $(`<div id="html_8bb4b8304b3ad1be6b3009dc996176c8" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Kusatsu-Shirane<br>Country: Japan<br>Type: Stratovolcano<br>Coordinates: [36.62, 138.55]</div>`)[0];
+                popup_ea1adf5e93b4bdebc6eeb03fc0832316.setContent(html_8bb4b8304b3ad1be6b3009dc996176c8);
+            
+        
+
+        marker_46bc1e45fba07b611e2cd294eb1a5590.bindPopup(popup_ea1adf5e93b4bdebc6eeb03fc0832316)
+        ;
+
+        
+    
+    
+            var marker_4717c8649b915592348cbdbda39e53f8 = L.marker(
+                [19.425, -155.292],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_e4f0cf1d131f213da58badee09e46106 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4717c8649b915592348cbdbda39e53f8.setIcon(icon_e4f0cf1d131f213da58badee09e46106);
+        
+    
+        var popup_5f6ef095f8e59c621f62ce3baefb2f38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92998536e01416b4896dc68ee0c0a5a3 = $(`<div id="html_92998536e01416b4896dc68ee0c0a5a3" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Kilauea<br>Country: United States<br>Type: Shield volcano<br>Coordinates: [19.425, -155.292]</div>`)[0];
+                popup_5f6ef095f8e59c621f62ce3baefb2f38.setContent(html_92998536e01416b4896dc68ee0c0a5a3);
+            
+        
+
+        marker_4717c8649b915592348cbdbda39e53f8.bindPopup(popup_5f6ef095f8e59c621f62ce3baefb2f38)
+        ;
+
+        
+    
+    
+            var marker_4caedd1292cceeacd3dc7bc58b6331ae = L.marker(
+                [-3.62, 144.62],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_fa889592ae7219d1fc40d62eaab637f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4caedd1292cceeacd3dc7bc58b6331ae.setIcon(icon_fa889592ae7219d1fc40d62eaab637f0);
+        
+    
+        var popup_b2223f3a71fae9cc7c1fa4a54e7b3df9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc5cec486203309dfa8686f0a3f52589 = $(`<div id="html_bc5cec486203309dfa8686f0a3f52589" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Kadovar<br>Country: Papua New Guinea<br>Type: Stratovolcano<br>Coordinates: [-3.62, 144.62]</div>`)[0];
+                popup_b2223f3a71fae9cc7c1fa4a54e7b3df9.setContent(html_bc5cec486203309dfa8686f0a3f52589);
+            
+        
+
+        marker_4caedd1292cceeacd3dc7bc58b6331ae.bindPopup(popup_b2223f3a71fae9cc7c1fa4a54e7b3df9)
+        ;
+
+        
+    
+    
+            var marker_4e09d4a256ad48d8509b0e5d8dfac243 = L.marker(
+                [-8.058, 114.242],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_b25ea37fe83d0334717ba2f4c2838dc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e09d4a256ad48d8509b0e5d8dfac243.setIcon(icon_b25ea37fe83d0334717ba2f4c2838dc6);
+        
+    
+        var popup_520936edae95845d29f4d957426d33fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e92defcc0b0bf61a856637157b1655e = $(`<div id="html_8e92defcc0b0bf61a856637157b1655e" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Ijen<br>Country: Indonesia<br>Type: Stratovolcano<br>Coordinates: [-8.058, 114.242]</div>`)[0];
+                popup_520936edae95845d29f4d957426d33fd.setContent(html_8e92defcc0b0bf61a856637157b1655e);
+            
+        
+
+        marker_4e09d4a256ad48d8509b0e5d8dfac243.bindPopup(popup_520936edae95845d29f4d957426d33fd)
+        ;
+
+        
+    
+    
+            var marker_4cc2642d22d88745120e421d63d3db15 = L.marker(
+                [19.425, -155.292],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_59486dcdb3a9bf7b4f3f9689db54a5d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4cc2642d22d88745120e421d63d3db15.setIcon(icon_59486dcdb3a9bf7b4f3f9689db54a5d8);
+        
+    
+        var popup_be1b58daaff718f15b8c61dd5ed7a628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e4132628f7fe15d86be3736dd3d79a1 = $(`<div id="html_6e4132628f7fe15d86be3736dd3d79a1" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Kilauea<br>Country: United States<br>Type: Shield volcano<br>Coordinates: [19.425, -155.292]</div>`)[0];
+                popup_be1b58daaff718f15b8c61dd5ed7a628.setContent(html_6e4132628f7fe15d86be3736dd3d79a1);
+            
+        
+
+        marker_4cc2642d22d88745120e421d63d3db15.bindPopup(popup_be1b58daaff718f15b8c61dd5ed7a628)
+        ;
+
+        
+    
+    
+            var marker_7769c6cb03a313b1e4045cc62f7953a5 = L.marker(
+                [-15.4, 167.83],
+                {}
+            ).addTo(map_9db49d0043f1940f561d7ddecd2a9793);
+        
+    
+            var icon_aa18bd0cdc8c8192f08439975abf9d86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7769c6cb03a313b1e4045cc62f7953a5.setIcon(icon_aa18bd0cdc8c8192f08439975abf9d86);
+        
+    
+        var popup_99a53d38fa4b4690ca9b2a0e6dfcd454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb0e01fe8ae3b5a4d1ba17f6df996ed8 = $(`<div id="html_bb0e01fe8ae3b5a4d1ba17f6df996ed8" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Name: Aoba<br>Country: Vanuatu<br>Type: Shield volcano<br>Coordinates: [-15.4, 167.83]</div>`)[0];
+                popup_99a53d38fa4b4690ca9b2a0e6dfcd454.setContent(html_bb0e01fe8ae3b5a4d1ba17f6df996ed8);
+            
+        
+
+        marker_7769c6cb03a313b1e4045cc62f7953a5.bindPopup(popup_99a53d38fa4b4690ca9b2a0e6dfcd454)
+        ;
+
+        
+    
+</script>
+</html>
